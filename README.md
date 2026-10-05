@@ -1,16 +1,34 @@
-## Hi there 👋
+<h1 align="center">Hi, I'm Flavius</h1>
 
-<!--
-**Flaxtrux/Flaxtrux** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  Student · Homelaber · Linux enthusiast<br>
+  Exploring tools, languages, workflows, and sharing what I learn.
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/assets/statscard.svg" alt="GitHub stats card" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What I'm up to
+
+| Learning | Using | Want to try | Not a fan of |
+| :-- | :-- | :-- | :-- |
+| Python | Emacs | C | JS |
+| Bash | Arch + Hyprland | C++ | GNU Nano |
+| Powershell | Zellij | Lua | Ubuntu |
+| Docker | Zsh | | Windows |
+
+I may not be the most advanced user, but I love learning and sharing with the community.
+
+## What you'll find here
+
+- **Tools** I build for the public
+- **Dotfiles and configs** → [my dotfiles](https://github.com/YOUR_USERNAME/dotfiles), plus setups I want to replicate
+
+## What I'm currently working on
+
+Learning docker and other utilities while adding more services to my personal server.
+
+## Contact
+
+[falviuscaruntu@proton.me](mailto:falviuscaruntu@proton.me)
