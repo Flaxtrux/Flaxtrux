@@ -48,7 +48,7 @@ query($login:String!){
   user(login:$login){
     name login createdAt avatarUrl
     followers{ totalCount }
-    repositories(ownerAffiliation:OWNER, isFork:false, first:100,
+    repositories(ownerAffiliations:[OWNER], isFork:false, first:100,
                  orderBy:{field:STARGAZERS, direction:DESC}){
       totalCount
       nodes{
