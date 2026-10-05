@@ -23,7 +23,7 @@ I may not be the most advanced user, but I love learning and sharing with the co
 ## What you'll find here
 
 - **Tools** I build for the public
-- **Dotfiles and configs** → [my dotfiles](https://github.com/YOUR_USERNAME/dotfiles), plus setups I want to replicate
+- **Dotfiles and configs** → [my dotfiles](https://github.com/Flaxtrux/dotfiles), plus setups I want to replicate
 
 ## What I'm currently working on
 
