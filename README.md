@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/assets/statscard.svg" alt="GitHub stats card" />
+  <img src="https://raw.githubusercontent.com/Flaxtrux/Flaxtrux/main/assets/statscard.svg" alt="GitHub stats card" />
 </p>
 
 ## What I'm up to
