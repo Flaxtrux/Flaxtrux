@@ -31,4 +31,4 @@ Learning docker and other utilities while adding more services to my personal se
 
 ## Contact
 
-[falviuscaruntu@proton.me](mailto:falviuscaruntu@proton.me)
+[flaviuscaruntu@proton.me](mailto:flaviuscaruntu@proton.me)
