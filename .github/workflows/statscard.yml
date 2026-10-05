@@ -1,0 +1,39 @@
+name: Update stats card
+
+on:
+  schedule:
+    - cron: "0 3 * * *"      # todos los días a las 03:00 UTC
+  workflow_dispatch:          # botón "Run workflow" para lanzarlo a mano
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pillow
+
+      - name: Generate card
+        run: python scripts/statscard.py
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          # Para contar también contribuciones privadas, crea un PAT con
+          # permiso read:user, guárdalo como secreto STATS_TOKEN y usa:
+          # GH_TOKEN: ${{ secrets.STATS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAGLINE: " Proud Emacs User · Arch Linux User · Student"   # <- cámbialo por el tuyo
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/statscard.svg
+          git commit -m "Update stats card" || exit 0
+          git push
